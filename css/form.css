@@ -1,0 +1,58 @@
+:root {
+    --fieldset-color: orange;
+    --light-text-color: white;
+    --button-color: darkorange;
+    --success-color: green;
+    --fail-color: red;
+}
+
+body {
+    max-width: fit-content;
+    margin: auto;
+}
+
+.fieldset {
+    border-radius: 10px;
+    border-color: var(--fieldset-color);
+    max-width: fit-content;
+    min-width: 263px;
+}
+
+.formbutton {
+    border-radius: 15px;
+    color: var(--light-text-color);
+    background-color: var(--button-color);
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.centerButton {
+    max-width: fit-content;
+    margin: auto;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.success {
+    color: var(--success-color);
+}
+
+.fail {
+    color: var(--fail-color);
+}
+
+.o-border {
+    border: 2px solid var(--fieldset-color);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}

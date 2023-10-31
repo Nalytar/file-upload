@@ -1,0 +1,29 @@
+{
+  "name": "vendor/upload",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Michael Kelle.",
+      "email": "kelle.michael@web.com"
+    }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.29"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "upload\\" : "/",
+      "upload\\classes\\": "classes/",
+      "upload\\classes\\handler\\": "classes/handler/",
+      "upload\\classes\\output\\" : "classes/output/",
+      "upload\\classes\\output\\builder\\": "classes/output/builder/"
+    }
+  }
+}
